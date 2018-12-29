@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ProjectListTblCell" rowHeight="313" id="px3-PV-RV7" customClass="ProjectListTblCell" customModule="MVVM_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="313"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="px3-PV-RV7" id="6NE-4Z-ZCW">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="312.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view tag="101" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7rJ-VR-mbZ">
+                        <rect key="frame" x="15" y="7" width="345" height="298.5"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ga-sz-ASg" customClass="MIGenericView" customModule="MVVM_Demo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="345" height="298.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z1x-4b-V4S">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="194"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Z1x-4b-V4S" secondAttribute="height" multiplier="345:194" id="eFV-Uy-tXT"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="The Baya Victoria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXq-MY-59F" customClass="MIGenericLabel" customModule="MVVM_Demo" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="205" width="124.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="203 Orbital Plaza, " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prw-cQ-rqM" customClass="MIGenericLabel" customModule="MVVM_Demo" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="235.5" width="116.5" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="MahaRERA:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YmL-T6-0V6" customClass="MIGenericLabel" customModule="MVVM_Demo" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="266" width="69.5" height="18"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
+                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P51900013240" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mE-u8-TcR" customClass="MIGenericLabel" customModule="MVVM_Demo" customModuleProvider="target">
+                                        <rect key="frame" x="88.5" y="266" width="87.5" height="18"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
+                                        <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PXq-MY-59F" secondAttribute="trailing" constant="15" id="3de-jp-Do8"/>
+                                    <constraint firstItem="YmL-T6-0V6" firstAttribute="top" secondItem="prw-cQ-rqM" secondAttribute="bottom" constant="11" id="ALb-hI-XPS"/>
+                                    <constraint firstItem="Z1x-4b-V4S" firstAttribute="leading" secondItem="8ga-sz-ASg" secondAttribute="leading" id="Ck9-6G-XCH"/>
+                                    <constraint firstItem="0mE-u8-TcR" firstAttribute="centerY" secondItem="YmL-T6-0V6" secondAttribute="centerY" id="P8i-FJ-SzJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="YmL-T6-0V6" secondAttribute="bottom" constant="14.5" id="Spx-fg-PMz"/>
+                                    <constraint firstItem="PXq-MY-59F" firstAttribute="top" secondItem="Z1x-4b-V4S" secondAttribute="bottom" constant="11" id="W3W-3f-YYR"/>
+                                    <constraint firstItem="prw-cQ-rqM" firstAttribute="leading" secondItem="PXq-MY-59F" secondAttribute="leading" id="Xo3-ZA-mKk"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0mE-u8-TcR" secondAttribute="trailing" constant="15" id="a1g-dS-5bn"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="prw-cQ-rqM" secondAttribute="trailing" constant="15" id="amX-md-F9S"/>
+                                    <constraint firstAttribute="trailing" secondItem="Z1x-4b-V4S" secondAttribute="trailing" id="lAT-fE-by3"/>
+                                    <constraint firstItem="0mE-u8-TcR" firstAttribute="leading" secondItem="YmL-T6-0V6" secondAttribute="trailing" constant="4" id="oR2-OM-nRg"/>
+                                    <constraint firstItem="YmL-T6-0V6" firstAttribute="leading" secondItem="prw-cQ-rqM" secondAttribute="leading" id="qdM-Jd-HID"/>
+                                    <constraint firstItem="prw-cQ-rqM" firstAttribute="top" secondItem="PXq-MY-59F" secondAttribute="bottom" constant="10" id="tUA-3q-UdO"/>
+                                    <constraint firstItem="Z1x-4b-V4S" firstAttribute="top" secondItem="8ga-sz-ASg" secondAttribute="top" id="u9H-DJ-mON"/>
+                                    <constraint firstItem="PXq-MY-59F" firstAttribute="leading" secondItem="8ga-sz-ASg" secondAttribute="leading" constant="15" id="wov-hf-oXa"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8ga-sz-ASg" firstAttribute="leading" secondItem="7rJ-VR-mbZ" secondAttribute="leading" id="0Dx-J0-nwe"/>
+                            <constraint firstAttribute="trailing" secondItem="8ga-sz-ASg" secondAttribute="trailing" id="EgG-Kr-zbc"/>
+                            <constraint firstAttribute="bottom" secondItem="8ga-sz-ASg" secondAttribute="bottom" id="M5U-FG-8Yj"/>
+                            <constraint firstItem="8ga-sz-ASg" firstAttribute="top" secondItem="7rJ-VR-mbZ" secondAttribute="top" id="Ncv-2O-1QG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7rJ-VR-mbZ" firstAttribute="leading" secondItem="6NE-4Z-ZCW" secondAttribute="leading" constant="15" id="L2M-L7-kli"/>
+                    <constraint firstAttribute="trailing" secondItem="7rJ-VR-mbZ" secondAttribute="trailing" constant="15" id="LAf-0k-kTi"/>
+                    <constraint firstItem="7rJ-VR-mbZ" firstAttribute="top" secondItem="6NE-4Z-ZCW" secondAttribute="top" constant="7" id="TVl-Dr-D4i"/>
+                    <constraint firstAttribute="bottom" secondItem="7rJ-VR-mbZ" secondAttribute="bottom" constant="7" id="lvq-Bi-odq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgVPrjct" destination="Z1x-4b-V4S" id="Fle-SH-RJ0"/>
+                <outlet property="lblLocation" destination="prw-cQ-rqM" id="luK-kO-MHP"/>
+                <outlet property="lblPjctName" destination="PXq-MY-59F" id="2CB-cP-0Yj"/>
+                <outlet property="lblReraNo" destination="0mE-u8-TcR" id="byv-z4-8EY"/>
+                <outlet property="viewMainContainer" destination="7rJ-VR-mbZ" id="mEP-Nt-5zH"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5B17A2A921D35A2B00D5AA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B17A2A821D35A2B00D5AA62 /* AppDelegate.swift */; };
-		5B17A2AB21D35A2B00D5AA62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B17A2AA21D35A2B00D5AA62 /* ViewController.swift */; };
+		5B17A2AB21D35A2B00D5AA62 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B17A2AA21D35A2B00D5AA62 /* ProjectViewController.swift */; };
 		5B17A2AE21D35A2B00D5AA62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B17A2AC21D35A2B00D5AA62 /* Main.storyboard */; };
 		5B17A2B021D35A2E00D5AA62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B17A2AF21D35A2E00D5AA62 /* Assets.xcassets */; };
 		5B17A2B321D35A2E00D5AA62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B17A2B121D35A2E00D5AA62 /* LaunchScreen.storyboard */; };
 		5B17A2BE21D35A2E00D5AA62 /* MVVM_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B17A2BD21D35A2E00D5AA62 /* MVVM_DemoTests.swift */; };
 		5B17A2C921D35A2E00D5AA62 /* MVVM_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B17A2C821D35A2E00D5AA62 /* MVVM_DemoUITests.swift */; };
+		5B17A2DC21D35CA200D5AA62 /* ProjectListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B17A2DA21D35CA200D5AA62 /* ProjectListTblCell.swift */; };
+		5B17A2DD21D35CA200D5AA62 /* ProjectListTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B17A2DB21D35CA200D5AA62 /* ProjectListTblCell.xib */; };
+		5B17A31B21D364A700D5AA62 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B17A31A21D364A700D5AA62 /* APIRequest.swift */; };
+		5B17A31D21D367FD00D5AA62 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B17A31C21D367FD00D5AA62 /* Project.swift */; };
+		5B17A31F21D37F7100D5AA62 /* ProjectListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B17A31E21D37F7100D5AA62 /* ProjectListViewModel.swift */; };
+		DB863691C146508E5CE1FC2E /* Pods_MVVM_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FDD131B6CCB86151B6E699 /* Pods_MVVM_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57FDD131B6CCB86151B6E699 /* Pods_MVVM_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B17A2A521D35A2B00D5AA62 /* MVVM Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B17A2A821D35A2B00D5AA62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B17A2AA21D35A2B00D5AA62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B17A2AA21D35A2B00D5AA62 /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
 		5B17A2AD21D35A2B00D5AA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B17A2AF21D35A2E00D5AA62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B17A2B221D35A2E00D5AA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		5B17A2C421D35A2E00D5AA62 /* MVVM DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B17A2C821D35A2E00D5AA62 /* MVVM_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_DemoUITests.swift; sourceTree = "<group>"; };
 		5B17A2CA21D35A2E00D5AA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B17A2DA21D35CA200D5AA62 /* ProjectListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListTblCell.swift; sourceTree = "<group>"; };
+		5B17A2DB21D35CA200D5AA62 /* ProjectListTblCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectListTblCell.xib; sourceTree = "<group>"; };
+		5B17A31A21D364A700D5AA62 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		5B17A31C21D367FD00D5AA62 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		5B17A31E21D37F7100D5AA62 /* ProjectListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListViewModel.swift; sourceTree = "<group>"; };
+		D3E1C420D7D7E890C828E6E1 /* Pods-MVVM Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM Demo/Pods-MVVM Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		F4D90D214D4574188ECA189A /* Pods-MVVM Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM Demo/Pods-MVVM Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB863691C146508E5CE1FC2E /* Pods_MVVM_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59B78353171501FEFE004497 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3E1C420D7D7E890C828E6E1 /* Pods-MVVM Demo.debug.xcconfig */,
+				F4D90D214D4574188ECA189A /* Pods-MVVM Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B17A29C21D35A2B00D5AA62 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				5B17A2BC21D35A2E00D5AA62 /* MVVM DemoTests */,
 				5B17A2C721D35A2E00D5AA62 /* MVVM DemoUITests */,
 				5B17A2A621D35A2B00D5AA62 /* Products */,
+				59B78353171501FEFE004497 /* Pods */,
+				D2595AB1E9C4FA81208E0303 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +123,13 @@
 		5B17A2A721D35A2B00D5AA62 /* MVVM Demo */ = {
 			isa = PBXGroup;
 			children = (
+				5B17A31921D3645200D5AA62 /* WebService */,
+				5B17A2DE21D35D1B00D5AA62 /* Controller */,
+				5B17A2D921D35B4300D5AA62 /* Resource */,
+				5B17A2D621D35A6800D5AA62 /* Model */,
+				5B17A2D721D35A7500D5AA62 /* View */,
+				5B17A2D821D35A7F00D5AA62 /* ViewModel */,
 				5B17A2A821D35A2B00D5AA62 /* AppDelegate.swift */,
-				5B17A2AA21D35A2B00D5AA62 /* ViewController.swift */,
 				5B17A2AC21D35A2B00D5AA62 /* Main.storyboard */,
 				5B17A2AF21D35A2E00D5AA62 /* Assets.xcassets */,
 				5B17A2B121D35A2E00D5AA62 /* LaunchScreen.storyboard */,
@@ -125,6 +156,62 @@
 			path = "MVVM DemoUITests";
 			sourceTree = "<group>";
 		};
+		5B17A2D621D35A6800D5AA62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B17A31C21D367FD00D5AA62 /* Project.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5B17A2D721D35A7500D5AA62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B17A2DA21D35CA200D5AA62 /* ProjectListTblCell.swift */,
+				5B17A2DB21D35CA200D5AA62 /* ProjectListTblCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B17A2D821D35A7F00D5AA62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5B17A31E21D37F7100D5AA62 /* ProjectListViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		5B17A2D921D35B4300D5AA62 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5B17A2DE21D35D1B00D5AA62 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B17A2AA21D35A2B00D5AA62 /* ProjectViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5B17A31921D3645200D5AA62 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				5B17A31A21D364A700D5AA62 /* APIRequest.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		D2595AB1E9C4FA81208E0303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57FDD131B6CCB86151B6E699 /* Pods_MVVM_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B17A2CD21D35A2E00D5AA62 /* Build configuration list for PBXNativeTarget "MVVM Demo" */;
 			buildPhases = (
+				38F5E76CA83EEAA2AB51651A /* [CP] Check Pods Manifest.lock */,
 				5B17A2A121D35A2B00D5AA62 /* Sources */,
 				5B17A2A221D35A2B00D5AA62 /* Frameworks */,
 				5B17A2A321D35A2B00D5AA62 /* Resources */,
+				1D8B83416175AE55AC3D61B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B17A2DD21D35CA200D5AA62 /* ProjectListTblCell.xib in Resources */,
 				5B17A2B321D35A2E00D5AA62 /* LaunchScreen.storyboard in Resources */,
 				5B17A2B021D35A2E00D5AA62 /* Assets.xcassets in Resources */,
 				5B17A2AE21D35A2B00D5AA62 /* Main.storyboard in Resources */,
@@ -251,12 +341,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D8B83416175AE55AC3D61B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVVM Demo/Pods-MVVM Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM Demo/Pods-MVVM Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38F5E76CA83EEAA2AB51651A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B17A2A121D35A2B00D5AA62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B17A2AB21D35A2B00D5AA62 /* ViewController.swift in Sources */,
+				5B17A2AB21D35A2B00D5AA62 /* ProjectViewController.swift in Sources */,
+				5B17A2DC21D35CA200D5AA62 /* ProjectListTblCell.swift in Sources */,
+				5B17A31B21D364A700D5AA62 /* APIRequest.swift in Sources */,
+				5B17A31D21D367FD00D5AA62 /* Project.swift in Sources */,
+				5B17A31F21D37F7100D5AA62 /* ProjectListViewModel.swift in Sources */,
 				5B17A2A921D35A2B00D5AA62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,9 +567,11 @@
 		};
 		5B17A2CE21D35A2E00D5AA62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E1C420D7D7E890C828E6E1 /* Pods-MVVM Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "MVVM Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +579,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "test.MVVM-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,9 +587,11 @@
 		};
 		5B17A2CF21D35A2E00D5AA62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D90D214D4574188ECA189A /* Pods-MVVM Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "MVVM Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +599,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "test.MVVM-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
